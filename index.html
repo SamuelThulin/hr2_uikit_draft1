@@ -1,0 +1,42 @@
+<!DOCTYPE html><html lang="en"><head>
+    <script src="js/p5.js"></script>
+    <!-- <script src="js/p5.sound.min.js"></script> -->
+     <script src="js/Tone.js"></script>
+    <!--  <link rel="stylesheet" type="text/css" href="css/style.css"> -->
+
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script> 
+
+    <meta charset="utf-8">
+   
+
+  </head>
+  <body>
+    <!--<div id='playButton'>PLAY</div>-->
+    <h1 class="uk-heading-medium">Hemo-resonance #2</h1>
+    <p>Select a date and time from the drop-down menu to hear the blood-sugar reading creatively sonified
+
+      (all values in mmol/L)</p>
+      <form>    <div class="uk-margin">
+        <div uk-form-custom="target: > * > span:first-child">
+            <select id = "chooseValNEW">
+                <option value="">Please select...</option>
+            </select>
+            <button class="uk-button uk-button-default" type="button" tabindex="-1">
+                <span></span>
+                <span uk-icon="icon: chevron-down"></span>
+            </button>
+        </div>
+    </div>
+</form>
+
+    <script src="js/sketch.js"></script>
+    <p>Volume</p>
+    <input class="uk-range" type="range" min="-60" max="0" value="0" id="volSliderNEW">
+    <a href="https://samuelthulin.com/projects/hemo-resonance2/" target="_blank">about</a>
+    
+</body>
+
+</html>
